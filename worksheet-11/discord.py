@@ -28,7 +28,7 @@ class User:
             print(message)
 
     def pin_message(self, message_index):
-        pass  # Pinned messages not supported for this user type
+        pass  # Pinned messages not supported for this user type - 'Unverified'
 
 
 class UnverifiedUser(User):
@@ -54,7 +54,6 @@ class NitroUser(User):
     pass  # Nitro users can send, pin, and view messages
 
 
-# Test the Discord messaging system
 def test_discord():
     user1 = UnverifiedUser("UnverifiedUser")
     user2 = VerifiedUser("VerifiedUser")
