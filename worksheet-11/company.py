@@ -78,7 +78,7 @@ def test_company_system():
     company = Company()
 
     employee1 = Employee("E001", "John Doe", "Software Engineer", 60000)
-    contractor1 = Contractor("C001", "Alice Smith", "Freelancer", 25, 40)
+    contractor1 = Contractor("C001", "Jane Doe", "Freelancer", 25, 40)
 
     company.add_worker(employee1)
     company.add_worker(contractor1)
